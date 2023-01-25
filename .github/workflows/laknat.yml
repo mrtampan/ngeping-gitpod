@@ -23,7 +23,6 @@ jobs:
         working-directory: ./
 
     steps:
-    - uses: actions/checkout@v3
-    - name: ping si gitpod
-      run: ping 6000-gitjomb-musicv2-78y9u7etyee.ws-us84.gitpod.io >/dev/null
+    - uses: nerdify/ping-action@1.0.0
+        secrets = ["6000-gitjomb-musicv2-78y9u7etyee.ws-us84.gitpod.io"]
 
