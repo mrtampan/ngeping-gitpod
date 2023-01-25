@@ -17,11 +17,6 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 1
 
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./
-
     steps:
     - name: ngeping
       run: ping 6000-gitjomb-musicv2-78y9u7etyee.ws-us84.gitpod.io
