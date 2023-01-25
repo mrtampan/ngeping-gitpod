@@ -28,5 +28,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: ping si gitpod
-    - run: ping https://6000-gitjomb-musicv2-78y9u7etyee.ws-us84.gitpod.io/
+      run: ping https://6000-gitjomb-musicv2-78y9u7etyee.ws-us84.gitpod.io/
 
