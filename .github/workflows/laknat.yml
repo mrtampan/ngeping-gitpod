@@ -14,7 +14,7 @@ on:
 jobs:
   cron:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     timeout-minutes: 1
 
     defaults:
@@ -23,6 +23,6 @@ jobs:
         working-directory: ./
 
     steps:
-    - uses: nerdify/ping-action@1.0.0
-        secrets = ["6000-gitjomb-musicv2-78y9u7etyee.ws-us84.gitpod.io"]
+    - name: ngeping
+      run: ping 6000-gitjomb-musicv2-78y9u7etyee.ws-us84.gitpod.io
 
